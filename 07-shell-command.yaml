@@ -11,6 +11,6 @@
     asnible.builtin.command: ls -ltr 
     register: command_result
   
-  -name:
+  -name: print the output
    asinble.builtin.debug:
-    msg: "{{command_result}}"
+    msg: "{{ command_result }}"
